@@ -9732,6 +9732,9 @@ p,
   .boton{
     text-align: left
   }
+  .servicios{
+    justify-content: center;
+  }
 }
 /* .team:hover .team-text {
   bottom: 100px;
