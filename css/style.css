@@ -325,8 +325,33 @@ legend {
   color: inherit;
   white-space: normal;
 }
-.texto-contac{
-  
+.imgput:nth-child(1){
+  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgput2:nth-child(1) {
+  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgput3:nth-child(1) {
+  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav3.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgput3:nth-child(1) {
+  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav4.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carru{
+  justify-content: center !important;
 }
 .contenedor-contac{
  border-radius: 5px !important ;  
