@@ -326,30 +326,36 @@ legend {
   white-space: normal;
 }
 .imgput:nth-child(1){
-  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav1.jpg);
+  background: linear-gradient(rgba(53, 53, 53, 0.562), rgba(53, 53, 53, 0.562)), url(../img/cubanav1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000000;
 }
 .imgput2:nth-child(1) {
-  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav2.jpg);
+  background: linear-gradient(rgba(53, 53, 53, 0.562), rgba(53, 53, 53, 0.562)), url(../img/cubanav3.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .imgput3:nth-child(1) {
-  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav3.jpg);
+  background: linear-gradient(rgba(53, 53, 53, 0.562), rgba(53, 53, 53, 0.562)), url(../img/cubanav2.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.imgput3:nth-child(1) {
-  background: linear-gradient(rgba(179, 179, 179, 0.8), rgba(99, 99, 99, 0.8)), url(../img/cubanav4.jpg);
+.imgput4:nth-child(1) {
+  background: linear-gradient(rgba(53, 53, 53, 0.562), rgba(53, 53, 53, 0.562)), url(../img/cubanav4.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.imgput5:nth-child(1) {
+  background: linear-gradient(rgba(53, 53, 53, 0.562), rgba(53, 53, 53, 0.562)), url(../img/cubanav5.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #carru{
   justify-content: center !important;
 }
@@ -443,6 +449,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.5rem;
 }
+ 
 
 @media (max-width: 1200px) {
   h4, .h4 {
@@ -485,6 +492,7 @@ h6, .h6 {
   .display-2 {
     font-size: calc(1.675rem + 5.1vw) ;
   }
+   
 }
 
 .display-3 {
@@ -658,6 +666,7 @@ pre code {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
+  
 }
 
 @media (min-width: 992px) {
@@ -9714,6 +9723,15 @@ p,
 }
 .img-tab{
   width: 200px;   
+}
+
+@media (max-width: 991.98px) {
+  .disple {
+      display: none !important;
+    }
+  .boton{
+    text-align: left
+  }
 }
 /* .team:hover .team-text {
   bottom: 100px;
