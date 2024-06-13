@@ -83,3 +83,15 @@
     });
     
 })(jQuery);
+function iniciarMap() {
+  // Tu código original para crear el mapa
+  var coord = {lat: 10.092472,lng: -68.094911};
+  var map = new google.maps.Map(document.getElementById('map'),{
+    zoom: 20,
+    center: coord
+  });
+  var marker = new google.maps.Marker({
+    position: coord,
+    map: map
+  });
+}
