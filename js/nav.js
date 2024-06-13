@@ -15,7 +15,7 @@ const activeLink = localStorage.getItem('activeLink');
 if (activeLink) {
     links.forEach(link => {
         if (link.href === activeLink) {
-            link.classList.add('active');
+            link.classList.add('active_nav');
         }
     });
 }
