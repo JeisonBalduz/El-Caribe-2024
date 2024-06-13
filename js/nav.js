@@ -1,4 +1,4 @@
- const links = document.querySelectorAll('.barra-navegadora a');
+const links = document.querySelectorAll('.barra-navegadora a');
 
 links.forEach(link => {
     link.addEventListener('click', function () {
