@@ -179,6 +179,10 @@
     color: white !important;
     background-color: var(--quinto-color) !important;
 }
+.active_segunda {
+    color: white !important;
+    background: var(--quinto-color) !important;
+}
 
 .btn-play span {
     display: block;
